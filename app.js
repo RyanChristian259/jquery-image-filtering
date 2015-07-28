@@ -22,6 +22,20 @@ $(".forest").on("click", function(){
      });
 });
 
+var here = $('.home').data.price();
+console.log(here);
+
+
+
+
+
+//  var numbers = [4, 2, 5, 1, 3];
+// numbers.sort(function(a, b) {
+//   return a - b;
+// });
+// console.log(numbers);
+
+$('article')[0].dataset
 
 
 
@@ -42,9 +56,7 @@ $(".forest").on("click", function(){
 
 
 
-
-
-})
+});
 
 
 
